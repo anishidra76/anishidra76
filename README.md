@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hello! I'm Anis Hidra, a highly skilled Full-Stack Developer passionate about engineering robust, scalable, and modern web applications from conception to deployment. Bridging the gap between intuitive user interface (UI/UX) design and high-performance backend architecture. I specialize in crafting seamless digital experiences tailored to business goals. With strong expertise in frontend frameworks, backend systems, and database optimization, I focus on delivering clean, secure, and maintainable code that drives results and enhances user engagement.<br><br>
+Hello! I'm Anis Hidra, a highly skilled Full-Stack Web Developer passionate about engineering robust, scalable, and modern web applications from conception to deployment. Bridging the gap between intuitive user interface (UI/UX) design and high-performance backend architecture. I specialize in crafting seamless digital experiences tailored to business goals. With strong expertise in frontend frameworks, backend systems, and database optimization, I focus on delivering clean, secure, and maintainable code that drives results and enhances user engagement.<br><br>
 
 
 ## 🌐 Socials:
