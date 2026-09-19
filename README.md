@@ -1,26 +1,63 @@
 <div align="center">
 
-# Anis Hidra
+# ANIS HIDRA
 
 ### Full-Stack Web Developer
 
-<p>
-  <a href="https://anishidra.com">Website</a> •
-  <a href="https://www.linkedin.com/">LinkedIn</a> •
-  <a href="https://github.com/">GitHub</a>
-</p>
+Building modern web applications, solving real-world problems,
+and turning ideas into powerful digital experiences.
+
+**Algeria** • **Always Learning** • **Open to Opportunities**
 
 </div>
 
-<img src="./profile.svg" alt="Anis Hidra GitHub Profile" width="100%">
+---
+
+# 🧠 SKILLS
+
+<div align="center">
+
+### Frontend
+
+`HTML` `CSS` `JavaScript` `React` `Bootstrap`
+
+### Backend
+
+`Python` `Django` `Django REST Framework` `FastAPI`
+
+### Databases
+
+`PostgreSQL` `SQLite` `MySQL`
+
+### DevOps
+
+`Git` `GitHub` `Linux` `Nginx` `CI/CD` `Docker`
+
+### Tools
+
+`VS Code` `Postman` `DBeaver` `Figma` `DBeaver` `Cloudflare`
+
+</div>
 
 ---
 
-## Setup
+# 🧬 SKILLS NETWORK
 
-1. Put `profile.svg` and this `README.md` inside the repository named exactly like your GitHub username.
-2. Replace the placeholder links, contact details, and statistics inside `profile.svg`.
-3. Push the repository to GitHub.
-4. GitHub will render the SVG as the visual profile.
+<div align="center">
 
-> Important: GitHub README files do not reliably allow arbitrary CSS/JavaScript/3D HTML directly inside Markdown. The custom SVG approach is used here so the profile can keep the same dark neon visual language, borders, gradients, network diagram, charts, contribution grid, and social columns.
+```text
+                         ┌───────────────┐
+                         │   FRONTEND    │
+                         └───────┬───────┘
+                                 │
+                                 │
+       ┌───────────────┐         ▼         ┌───────────────┐
+       │   LANGUAGES   │ ───►  SKILLS  ◄── │  FRAMEWORKS   │
+       └───────────────┘         │         └───────────────┘
+                                 │
+                ┌────────────────┼────────────────┐
+                │                │                │
+                ▼                ▼                ▼
+           ┌─────────┐      ┌─────────┐      ┌─────────┐
+           │ DEVOPS  │      │ DATABASE│      │  TOOLS  │
+           └─────────┘      └─────────┘      └─────────┘
