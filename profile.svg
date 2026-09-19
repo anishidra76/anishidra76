@@ -1,0 +1,1912 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1254"
+     height="1242"
+     viewBox="0 0 1254 1242">
+
+<defs>
+
+    <!-- ================= BACKGROUND ================= -->
+
+    <linearGradient id="bg"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="1">
+
+        <stop offset="0%" stop-color="#020817"/>
+        <stop offset="55%" stop-color="#07152d"/>
+        <stop offset="100%" stop-color="#020713"/>
+
+    </linearGradient>
+
+
+    <!-- ================= CYAN / PURPLE ================= -->
+
+    <linearGradient id="cyanPurple"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="1">
+
+        <stop offset="0%" stop-color="#00f0ff"/>
+        <stop offset="100%" stop-color="#7000ff"/>
+
+    </linearGradient>
+
+
+    <linearGradient id="cyan"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="0">
+
+        <stop offset="0%" stop-color="#00f0ff"/>
+        <stop offset="100%" stop-color="#2e7bff"/>
+
+    </linearGradient>
+
+
+    <linearGradient id="purple"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="0">
+
+        <stop offset="0%" stop-color="#7000ff"/>
+        <stop offset="100%" stop-color="#b43cff"/>
+
+    </linearGradient>
+
+
+    <!-- ================= GLOWS ================= -->
+
+    <filter id="cyanGlow">
+
+        <feGaussianBlur
+            stdDeviation="5"
+            result="blur"/>
+
+        <feMerge>
+
+            <feMergeNode in="blur"/>
+            <feMergeNode in="SourceGraphic"/>
+
+        </feMerge>
+
+    </filter>
+
+
+    <filter id="purpleGlow">
+
+        <feGaussianBlur
+            stdDeviation="6"
+            result="blur"/>
+
+        <feMerge>
+
+            <feMergeNode in="blur"/>
+            <feMergeNode in="SourceGraphic"/>
+
+        </feMerge>
+
+    </filter>
+
+
+    <!-- ================= GRID ================= -->
+
+    <pattern
+        id="grid"
+        width="32"
+        height="32"
+        patternUnits="userSpaceOnUse">
+
+        <path
+            d="M32 0H0V32"
+            fill="none"
+            stroke="#12305a"
+            stroke-width="1"
+            opacity=".35"/>
+
+    </pattern>
+
+
+    <!-- ================= TEXT ================= -->
+
+    <style>
+
+        .title {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            fill: #f4f8ff;
+        }
+
+        .cyanText {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            fill: #00eaff;
+        }
+
+        .purpleText {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            fill: #b64cff;
+        }
+
+        .body {
+            font-family: Arial, Helvetica, sans-serif;
+            fill: #b7c7df;
+        }
+
+        .muted {
+            font-family: Arial, Helvetica, sans-serif;
+            fill: #6e84a7;
+        }
+
+        .small {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            fill: #8ea5c8;
+        }
+
+        .chip {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            fill: #dcecff;
+        }
+
+        .panel {
+            fill: #041127;
+            stroke: #174e8b;
+            stroke-width: 1;
+        }
+
+    </style>
+
+</defs>
+
+
+<!-- ===================================================== -->
+<!-- BACKGROUND -->
+<!-- ===================================================== -->
+
+<rect
+    width="1254"
+    height="1242"
+    fill="url(#bg)"/>
+
+<rect
+    width="1254"
+    height="1242"
+    fill="url(#grid)"
+    opacity=".45"/>
+
+
+<!-- ===================================================== -->
+<!-- HEADER -->
+<!-- ===================================================== -->
+
+<rect
+    x="12"
+    y="12"
+    width="1230"
+    height="202"
+    rx="10"
+    class="panel"/>
+
+<rect
+    x="12"
+    y="12"
+    width="1230"
+    height="202"
+    rx="10"
+    fill="none"
+    stroke="url(#cyanPurple)"
+    opacity=".35"/>
+
+
+<!-- AH LOGO -->
+
+<circle
+    cx="132"
+    cy="112"
+    r="76"
+    fill="#07152d"
+    stroke="url(#cyanPurple)"
+    stroke-width="4"
+    filter="url(#cyanGlow)"/>
+
+<text
+    x="132"
+    y="132"
+    text-anchor="middle"
+    font-family="Arial"
+    font-size="55"
+    font-weight="700"
+    fill="#eef7ff">
+
+    A<tspan fill="#00eaff">H</tspan>
+
+</text>
+
+
+<!-- NAME -->
+
+<text
+    x="254"
+    y="70"
+    class="title"
+    font-size="39">
+
+    Anis Hidra
+
+</text>
+
+
+<!-- ROLE -->
+
+<text
+    x="254"
+    y="103"
+    class="cyanText"
+    font-size="22">
+
+    Full-Stack Web Developer
+
+</text>
+
+
+<!-- DESCRIPTION -->
+
+<text
+    x="254"
+    y="132"
+    class="body"
+    font-size="16">
+
+    Building modern web applications, solving real-world problems,
+
+</text>
+
+<text
+    x="254"
+    y="155"
+    class="body"
+    font-size="16">
+
+    and turning ideas into powerful digital experiences.
+
+</text>
+
+
+<!-- INFO -->
+
+<circle
+    cx="262"
+    cy="183"
+    r="4"
+    fill="#00eaff"/>
+
+<text
+    x="274"
+    y="188"
+    class="small">
+
+    Algeria
+
+</text>
+
+<text
+    x="350"
+    y="188"
+    class="muted">
+
+    |
+
+</text>
+
+<text
+    x="371"
+    y="188"
+    class="small">
+
+    Always Learning
+
+</text>
+
+<text
+    x="487"
+    y="188"
+    class="muted">
+
+    |
+
+</text>
+
+<text
+    x="508"
+    y="188"
+    class="small">
+
+    Open to Opportunities
+
+</text>
+
+
+<!-- QUOTE -->
+
+<text
+    x="1060"
+    y="70"
+    text-anchor="middle"
+    class="body"
+    font-size="14">
+
+    “ Better Code
+
+</text>
+
+<text
+    x="1060"
+    y="92"
+    text-anchor="middle"
+    class="body"
+    font-size="14">
+
+    Better Tomorrow ”
+
+</text>
+
+
+<text
+    x="1165"
+    y="138"
+    class="cyanText"
+    font-size="38">
+
+    &lt;/&gt;
+
+</text>
+
+
+<!-- DECORATIVE WAVES -->
+
+<path
+    d="M760 184
+       C830 150 875 180 932 151
+       S1035 128 1104 162
+       S1180 190 1225 153"
+    fill="none"
+    stroke="#005cff"
+    stroke-width="2"
+    opacity=".35"/>
+
+<path
+    d="M760 192
+       C830 162 880 191 938 163
+       S1040 145 1110 174
+       S1180 202 1225 170"
+    fill="none"
+    stroke="#00eaff"
+    stroke-width="1"
+    opacity=".25"/>
+
+
+<!-- ===================================================== -->
+<!-- SKILLS -->
+<!-- ===================================================== -->
+
+<rect
+    x="12"
+    y="226"
+    width="1230"
+    height="366"
+    rx="10"
+    class="panel"/>
+
+
+<text
+    x="42"
+    y="265"
+    class="title"
+    font-size="24">
+
+    ✣ Skills
+
+</text>
+
+
+<!-- CENTRAL NODE -->
+
+<circle
+    cx="627"
+    cy="412"
+    r="58"
+    fill="#06182e"
+    stroke="url(#cyanPurple)"
+    stroke-width="3"
+    filter="url(#cyanGlow)"/>
+
+<circle
+    cx="627"
+    cy="412"
+    r="42"
+    fill="none"
+    stroke="#00eaff"
+    opacity=".55"/>
+
+<text
+    x="627"
+    y="421"
+    text-anchor="middle"
+    class="title"
+    font-size="22">
+
+    Skills
+
+</text>
+
+
+<!-- NETWORK NODES -->
+
+<g
+    fill="#00eaff"
+    filter="url(#cyanGlow)">
+
+    <circle cx="575" cy="355" r="4"/>
+    <circle cx="676" cy="357" r="4"/>
+    <circle cx="552" cy="407" r="4"/>
+    <circle cx="704" cy="411" r="4"/>
+    <circle cx="580" cy="470" r="4"/>
+    <circle cx="674" cy="472" r="4"/>
+    <circle cx="627" cy="340" r="4"/>
+    <circle cx="627" cy="484" r="4"/>
+
+</g>
+
+
+<g
+    stroke="#168cff"
+    stroke-width="1.2"
+    opacity=".65">
+
+    <path
+        d="M575 355
+           L627 340
+           L676 357
+           L704 411
+           L674 472
+           L627 484
+           L580 470
+           L552 407
+           Z"/>
+
+    <path d="M575 355L580 470"/>
+    <path d="M676 357L674 472"/>
+    <path d="M552 407L704 411"/>
+    <path d="M627 340L627 484"/>
+
+</g>
+
+
+<!-- FRONTEND -->
+
+<rect
+    x="135"
+    y="285"
+    width="170"
+    height="74"
+    rx="28"
+    fill="#06182d"
+    stroke="#00eaff"
+    stroke-width="2"/>
+
+<text
+    x="220"
+    y="313"
+    text-anchor="middle"
+    class="cyanText"
+    font-size="17">
+
+    Frontend
+
+</text>
+
+<text
+    x="220"
+    y="338"
+    text-anchor="middle"
+    class="small">
+
+    React · HTML · CSS · JS
+
+</text>
+
+
+<!-- BACKEND -->
+
+<rect
+    x="488"
+    y="278"
+    width="178"
+    height="74"
+    rx="28"
+    fill="#06182d"
+    stroke="#00eaff"
+    stroke-width="2"/>
+
+<text
+    x="577"
+    y="307"
+    text-anchor="middle"
+    class="cyanText"
+    font-size="17">
+
+    Backend
+
+</text>
+
+<text
+    x="577"
+    y="332"
+    text-anchor="middle"
+    class="small">
+
+    Python · Django · DRF
+
+</text>
+
+
+<!-- DATABASE -->
+
+<rect
+    x="942"
+    y="285"
+    width="175"
+    height="74"
+    rx="28"
+    fill="#130b2d"
+    stroke="#a236ff"
+    stroke-width="2"/>
+
+<text
+    x="1029"
+    y="313"
+    text-anchor="middle"
+    class="purpleText"
+    font-size="17">
+
+    Databases
+
+</text>
+
+<text
+    x="1029"
+    y="338"
+    text-anchor="middle"
+    class="small">
+
+    PostgreSQL · SQLite
+
+</text>
+
+
+<!-- DEVOPS -->
+
+<rect
+    x="133"
+    y="407"
+    width="180"
+    height="74"
+    rx="28"
+    fill="#130b2d"
+    stroke="#8c35ff"
+    stroke-width="2"/>
+
+<text
+    x="223"
+    y="435"
+    text-anchor="middle"
+    class="purpleText"
+    font-size="17">
+
+    DevOps
+
+</text>
+
+<text
+    x="223"
+    y="460"
+    text-anchor="middle"
+    class="small">
+
+    Git · CI/CD · Nginx
+
+</text>
+
+
+<!-- TOOLS -->
+
+<rect
+    x="941"
+    y="407"
+    width="176"
+    height="74"
+    rx="28"
+    fill="#06182d"
+    stroke="#00eaff"
+    stroke-width="2"/>
+
+<text
+    x="1029"
+    y="435"
+    text-anchor="middle"
+    class="cyanText"
+    font-size="17">
+
+    Tools
+
+</text>
+
+<text
+    x="1029"
+    y="460"
+    text-anchor="middle"
+    class="small">
+
+    VS Code · GitHub · Postman
+
+</text>
+
+
+<!-- CONNECTIONS -->
+
+<g
+    fill="none"
+    stroke-width="2">
+
+    <path
+        d="M305 322
+           C410 322 445 370 569 399"
+        stroke="#00eaff"/>
+
+    <path
+        d="M577 352
+           C590 365 605 378 616 395"
+        stroke="#00eaff"/>
+
+    <path
+        d="M942 322
+           C820 322 780 370 684 399"
+        stroke="#9c36ff"/>
+
+    <path
+        d="M313 444
+           C430 444 492 435 572 420"
+        stroke="#8c35ff"/>
+
+    <path
+        d="M941 444
+           C835 444 778 436 686 421"
+        stroke="#00eaff"/>
+
+</g>
+
+
+<!-- SECOND LEVEL -->
+
+<g
+    fill="none"
+    stroke-width="2">
+
+    <path
+        d="M605 456
+           C560 488 505 503 443 525"
+        stroke="#00eaff"/>
+
+    <path
+        d="M625 470L625 526"
+        stroke="#8c35ff"/>
+
+    <path
+        d="M649 456
+           C700 490 750 502 809 525"
+        stroke="#00eaff"/>
+
+    <path
+        d="M680 456
+           C745 475 850 486 972 525"
+        stroke="#8c35ff"/>
+
+</g>
+
+
+<!-- CATEGORIES -->
+
+<circle
+    cx="443"
+    cy="532"
+    r="26"
+    fill="#07172c"
+    stroke="#00eaff"
+    stroke-width="2"/>
+
+<text
+    x="443"
+    y="538"
+    text-anchor="middle"
+    class="chip">
+
+    &lt;/&gt;
+
+</text>
+
+<text
+    x="443"
+    y="564"
+    text-anchor="middle"
+    class="small">
+
+    Languages
+
+</text>
+
+
+<circle
+    cx="625"
+    cy="532"
+    r="26"
+    fill="#07172c"
+    stroke="#8c35ff"
+    stroke-width="2"/>
+
+<text
+    x="625"
+    y="538"
+    text-anchor="middle"
+    class="chip">
+
+    { }
+
+</text>
+
+<text
+    x="625"
+    y="564"
+    text-anchor="middle"
+    class="small">
+
+    Frameworks
+
+</text>
+
+
+<circle
+    cx="809"
+    cy="532"
+    r="26"
+    fill="#07172c"
+    stroke="#00eaff"
+    stroke-width="2"/>
+
+<text
+    x="809"
+    y="538"
+    text-anchor="middle"
+    class="chip">
+
+    ∞
+
+</text>
+
+<text
+    x="809"
+    y="564"
+    text-anchor="middle"
+    class="small">
+
+    DevOps
+
+</text>
+
+
+<circle
+    cx="972"
+    cy="532"
+    r="26"
+    fill="#07172c"
+    stroke="#8c35ff"
+    stroke-width="2"/>
+
+<text
+    x="972"
+    y="538"
+    text-anchor="middle"
+    class="chip">
+
+    ⚒
+
+</text>
+
+<text
+    x="972"
+    y="564"
+    text-anchor="middle"
+    class="small">
+
+    Tools
+
+</text>
+
+
+<!-- ===================================================== -->
+<!-- SKILL CHIPS -->
+<!-- ===================================================== -->
+
+<g>
+
+    <rect x="60" y="548" width="70" height="27"
+          rx="13" fill="#06182d" stroke="#00eaff"/>
+
+    <text x="95" y="566"
+          text-anchor="middle"
+          class="chip">
+        Python
+    </text>
+
+
+    <rect x="138" y="548" width="85" height="27"
+          rx="13" fill="#06182d" stroke="#00eaff"/>
+
+    <text x="180" y="566"
+          text-anchor="middle"
+          class="chip">
+        JavaScript
+    </text>
+
+
+    <rect x="231" y="548" width="66" height="27"
+          rx="13" fill="#06182d" stroke="#00eaff"/>
+
+    <text x="264" y="566"
+          text-anchor="middle"
+          class="chip">
+        HTML
+    </text>
+
+
+    <rect x="305" y="548" width="62" height="27"
+          rx="13" fill="#06182d" stroke="#00eaff"/>
+
+    <text x="336" y="566"
+          text-anchor="middle"
+          class="chip">
+        CSS
+    </text>
+
+
+    <rect x="515" y="548" width="72" height="27"
+          rx="13" fill="#130b2d" stroke="#8c35ff"/>
+
+    <text x="551" y="566"
+          text-anchor="middle"
+          class="chip">
+        Django
+    </text>
+
+
+    <rect x="595" y="548" width="70" height="27"
+          rx="13" fill="#130b2d" stroke="#8c35ff"/>
+
+    <text x="630" y="566"
+          text-anchor="middle"
+          class="chip">
+        React
+    </text>
+
+
+    <rect x="673" y="548" width="76" height="27"
+          rx="13" fill="#130b2d" stroke="#8c35ff"/>
+
+    <text x="711" y="566"
+          text-anchor="middle"
+          class="chip">
+        FastAPI
+    </text>
+
+
+    <rect x="775" y="548" width="65" height="27"
+          rx="13" fill="#06182d" stroke="#00eaff"/>
+
+    <text x="807" y="566"
+          text-anchor="middle"
+          class="chip">
+        Docker
+    </text>
+
+
+    <rect x="848" y="548" width="50" height="27"
+          rx="13" fill="#06182d" stroke="#00eaff"/>
+
+    <text x="873" y="566"
+          text-anchor="middle"
+          class="chip">
+        Git
+    </text>
+
+
+    <rect x="906" y="548" width="66" height="27"
+          rx="13" fill="#06182d" stroke="#00eaff"/>
+
+    <text x="939" y="566"
+          text-anchor="middle"
+          class="chip">
+        Nginx
+    </text>
+
+
+    <rect x="980" y="548" width="73" height="27"
+          rx="13" fill="#130b2d" stroke="#8c35ff"/>
+
+    <text x="1016" y="566"
+          text-anchor="middle"
+          class="chip">
+        Postman
+    </text>
+
+</g>
+
+
+<!-- ===================================================== -->
+<!-- GITHUB STATISTICS -->
+<!-- ===================================================== -->
+
+<rect
+    x="12"
+    y="604"
+    width="1230"
+    height="250"
+    rx="10"
+    class="panel"/>
+
+
+<text
+    x="42"
+    y="640"
+    class="title"
+    font-size="23">
+
+    ▥ GitHub Stats
+
+</text>
+
+
+<!-- COMMIT RING -->
+
+<circle
+    cx="100"
+    cy="730"
+    r="52"
+    fill="none"
+    stroke="#183451"
+    stroke-width="13"/>
+
+<circle
+    cx="100"
+    cy="730"
+    r="52"
+    fill="none"
+    stroke="#8c35ff"
+    stroke-width="13"
+    stroke-linecap="round"
+    stroke-dasharray="245 82"
+    transform="rotate(-90 100 730)"/>
+
+<text
+    x="100"
+    y="727"
+    text-anchor="middle"
+    class="title"
+    font-size="19">
+
+    512
+
+</text>
+
+<text
+    x="100"
+    y="747"
+    text-anchor="middle"
+    class="small">
+
+    Commits
+
+</text>
+
+
+<!-- REPOSITORIES -->
+
+<circle
+    cx="230"
+    cy="730"
+    r="52"
+    fill="none"
+    stroke="#183451"
+    stroke-width="13"/>
+
+<circle
+    cx="230"
+    cy="730"
+    r="52"
+    fill="none"
+    stroke="#159dff"
+    stroke-width="13"
+    stroke-linecap="round"
+    stroke-dasharray="185 142"
+    transform="rotate(-90 230 730)"/>
+
+<text
+    x="230"
+    y="727"
+    text-anchor="middle"
+    class="title"
+    font-size="19">
+
+    48
+
+</text>
+
+<text
+    x="230"
+    y="747"
+    text-anchor="middle"
+    class="small">
+
+    Repositories
+
+</text>
+
+
+<!-- FOLLOWERS -->
+
+<circle
+    cx="360"
+    cy="730"
+    r="52"
+    fill="none"
+    stroke="#183451"
+    stroke-width="13"/>
+
+<circle
+    cx="360"
+    cy="730"
+    r="52"
+    fill="none"
+    stroke="#00eaff"
+    stroke-width="13"
+    stroke-linecap="round"
+    stroke-dasharray="112 215"
+    transform="rotate(-90 360 730)"/>
+
+<text
+    x="360"
+    y="727"
+    text-anchor="middle"
+    class="title"
+    font-size="19">
+
+    7
+
+</text>
+
+<text
+    x="360"
+    y="747"
+    text-anchor="middle"
+    class="small">
+
+    Followers
+
+</text>
+
+
+<!-- GRAPH -->
+
+<rect
+    x="430"
+    y="655"
+    width="360"
+    height="175"
+    rx="7"
+    fill="#061326"
+    stroke="#153a68"/>
+
+
+<text
+    x="450"
+    y="683"
+    class="title"
+    font-size="15">
+
+    Contribution Activity
+
+</text>
+
+
+<g
+    stroke="#183451"
+    opacity=".65">
+
+    <path d="M455 718H775"/>
+    <path d="M455 748H775"/>
+    <path d="M455 778H775"/>
+    <path d="M455 808H775"/>
+
+    <path d="M455 700V810"/>
+    <path d="M505 700V810"/>
+    <path d="M555 700V810"/>
+    <path d="M605 700V810"/>
+    <path d="M655 700V810"/>
+    <path d="M705 700V810"/>
+    <path d="M755 700V810"/>
+
+</g>
+
+
+<path
+    d="M458 791
+       L492 775
+       L526 781
+       L560 755
+       L594 768
+       L628 744
+       L662 750
+       L696 718
+       L730 739
+       L764 724"
+
+    fill="none"
+    stroke="#00eaff"
+    stroke-width="3"
+    filter="url(#cyanGlow)"/>
+
+
+<!-- TOP LANGUAGES -->
+
+<rect
+    x="810"
+    y="655"
+    width="185"
+    height="175"
+    rx="7"
+    fill="#061326"
+    stroke="#153a68"/>
+
+<text
+    x="830"
+    y="683"
+    class="title"
+    font-size="15">
+
+    Top Languages
+
+</text>
+
+
+<text x="830" y="711" class="small">
+    ● Python
+</text>
+
+<rect
+    x="900"
+    y="702"
+    width="75"
+    height="8"
+    rx="4"
+    fill="#168cff"/>
+
+
+<text x="978" y="711"
+      class="small"
+      text-anchor="end">
+    32%
+</text>
+
+
+<text x="830" y="738" class="small">
+    ● JavaScript
+</text>
+
+<rect
+    x="900"
+    y="729"
+    width="58"
+    height="8"
+    rx="4"
+    fill="#00d8b5"/>
+
+<text x="978" y="738"
+      class="small"
+      text-anchor="end">
+    25%
+</text>
+
+
+<text x="830" y="765" class="small">
+    ● HTML/CSS
+</text>
+
+<rect
+    x="900"
+    y="756"
+    width="44"
+    height="8"
+    rx="4"
+    fill="#8c35ff"/>
+
+<text x="978" y="765"
+      class="small"
+      text-anchor="end">
+    19%
+</text>
+
+
+<text x="830" y="792" class="small">
+    ● Other
+</text>
+
+<rect
+    x="900"
+    y="783"
+    width="30"
+    height="8"
+    rx="4"
+    fill="#49607e"/>
+
+<text x="978" y="792"
+      class="small"
+      text-anchor="end">
+    24%
+</text>
+
+
+<!-- HIGHLIGHTS -->
+
+<rect
+    x="1015"
+    y="655"
+    width="205"
+    height="175"
+    rx="7"
+    fill="#061326"
+    stroke="#153a68"/>
+
+<text
+    x="1035"
+    y="683"
+    class="title"
+    font-size="15">
+
+    Highlights
+
+</text>
+
+<text
+    x="1035"
+    y="712"
+    class="cyanText"
+    font-size="20">
+
+    512
+
+</text>
+
+<text
+    x="1075"
+    y="712"
+    class="small">
+
+    Commits
+
+</text>
+
+
+<text
+    x="1035"
+    y="742"
+    class="cyanText"
+    font-size="20">
+
+    48
+
+</text>
+
+<text
+    x="1075"
+    y="742"
+    class="small">
+
+    Repositories
+
+</text>
+
+
+<text
+    x="1035"
+    y="772"
+    class="cyanText"
+    font-size="20">
+
+    12
+
+</text>
+
+<text
+    x="1075"
+    y="772"
+    class="small">
+
+    Pull Requests
+
+</text>
+
+
+<text
+    x="1035"
+    y="802"
+    class="cyanText"
+    font-size="20">
+
+    3
+
+</text>
+
+<text
+    x="1075"
+    y="802"
+    class="small">
+
+    Issues
+
+</text>
+
+
+<!-- ===================================================== -->
+<!-- CONTRIBUTION GRAPH -->
+<!-- ===================================================== -->
+
+<rect
+    x="12"
+    y="866"
+    width="1230"
+    height="182"
+    rx="10"
+    class="panel"/>
+
+
+<text
+    x="42"
+    y="902"
+    class="title"
+    font-size="23">
+
+    ◉ Contribution Graph
+
+</text>
+
+
+<!-- HEATMAP -->
+
+<g>
+
+<!-- row 1 -->
+
+<rect x="78" y="940" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="94" y="940" width="10" height="9" rx="2" fill="#12683e"/>
+<rect x="110" y="940" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="126" y="940" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="142" y="940" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="158" y="940" width="10" height="9" rx="2" fill="#12683e"/>
+<rect x="174" y="940" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="190" y="940" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="206" y="940" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="222" y="940" width="10" height="9" rx="2" fill="#12683e"/>
+<rect x="238" y="940" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="254" y="940" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="270" y="940" width="10" height="9" rx="2" fill="#12683e"/>
+<rect x="286" y="940" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="302" y="940" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="318" y="940" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="334" y="940" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="350" y="940" width="10" height="9" rx="2" fill="#12683e"/>
+<rect x="366" y="940" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="382" y="940" width="10" height="9" rx="2" fill="#20a95d"/>
+
+<!-- row 2 -->
+
+<rect x="78" y="953" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="94" y="953" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="110" y="953" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="126" y="953" width="10" height="9" rx="2" fill="#12683e"/>
+<rect x="142" y="953" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="158" y="953" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="174" y="953" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="190" y="953" width="10" height="9" rx="2" fill="#12683e"/>
+<rect x="206" y="953" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="222" y="953" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="238" y="953" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="254" y="953" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="270" y="953" width="10" height="9" rx="2" fill="#12683e"/>
+<rect x="286" y="953" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="302" y="953" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="318" y="953" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="334" y="953" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="350" y="953" width="10" height="9" rx="2" fill="#12683e"/>
+<rect x="366" y="953" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="382" y="953" width="10" height="9" rx="2" fill="#20a95d"/>
+
+<!-- row 3 -->
+
+<rect x="78" y="966" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="94" y="966" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="110" y="966" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="126" y="966" width="10" height="9" rx="2" fill="#12683e"/>
+<rect x="142" y="966" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="158" y="966" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="174" y="966" width="10" height="9" rx="2" fill="#12683e"/>
+<rect x="190" y="966" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="206" y="966" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="222" y="966" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="238" y="966" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="254" y="966" width="10" height="9" rx="2" fill="#12683e"/>
+<rect x="270" y="966" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="286" y="966" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="302" y="966" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="318" y="966" width="10" height="9" rx="2" fill="#12683e"/>
+<rect x="334" y="966" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="350" y="966" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="366" y="966" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="382" y="966" width="10" height="9" rx="2" fill="#12683e"/>
+
+<!-- more columns -->
+
+<rect x="400" y="940" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="416" y="940" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="432" y="940" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="448" y="940" width="10" height="9" rx="2" fill="#12683e"/>
+<rect x="464" y="940" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="480" y="940" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="496" y="940" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="512" y="940" width="10" height="9" rx="2" fill="#12683e"/>
+<rect x="528" y="940" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="544" y="940" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="560" y="940" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="576" y="940" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="592" y="940" width="10" height="9" rx="2" fill="#12683e"/>
+<rect x="608" y="940" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="624" y="940" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="640" y="940" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="656" y="940" width="10" height="9" rx="2" fill="#12683e"/>
+<rect x="672" y="940" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="688" y="940" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="704" y="940" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="720" y="940" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="736" y="940" width="10" height="9" rx="2" fill="#12683e"/>
+<rect x="752" y="940" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="768" y="940" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="784" y="940" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="800" y="940" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="816" y="940" width="10" height="9" rx="2" fill="#12683e"/>
+<rect x="832" y="940" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="848" y="940" width="10" height="9" rx="2" fill="#20a95d"/>
+<rect x="864" y="940" width="10" height="9" rx="2" fill="#0c2340"/>
+<rect x="880" y="940" width="10" height="9" rx="2" fill="#52e17d"/>
+<rect x="896" y="940" width="10" height="9" rx="2" fill="#12683e"/>
+<rect x="912" y="940" width="10" height="9" rx="2" fill="#20a95d"/>
+
+</g>
+
+
+<!-- GRAPH SIDE STATS -->
+
+<rect
+    x="950"
+    y="916"
+    width="250"
+    height="110"
+    rx="7"
+    fill="#061326"
+    stroke="#153a68"/>
+
+
+<text
+    x="970"
+    y="941"
+    class="small">
+
+    ● Total Contributions
+
+</text>
+
+<text
+    x="970"
+    y="962"
+    class="title"
+    font-size="19">
+
+    512
+
+</text>
+
+
+<line
+    x1="970"
+    y1="973"
+    x2="1180"
+    y2="973"
+    stroke="#153a68"/>
+
+
+<text
+    x="970"
+    y="994"
+    class="small">
+
+    🔥 Longest Streak
+
+</text>
+
+<text
+    x="1080"
+    y="994"
+    class="title"
+    font-size="14">
+
+    24 days
+
+</text>
+
+
+<text
+    x="970"
+    y="1015"
+    class="small">
+
+    ▣ Current Streak
+
+</text>
+
+<text
+    x="1080"
+    y="1015"
+    class="title"
+    font-size="14">
+
+    6 days
+
+</text>
+
+
+<!-- ===================================================== -->
+<!-- LINKS -->
+<!-- ===================================================== -->
+
+<rect
+    x="12"
+    y="1060"
+    width="1230"
+    height="182"
+    rx="10"
+    class="panel"/>
+
+
+<text
+    x="42"
+    y="1095"
+    class="title"
+    font-size="23">
+
+    ↗ Links &amp; Socials
+
+</text>
+
+
+<!-- PROFESSIONAL -->
+
+<rect
+    x="25"
+    y="1110"
+    width="370"
+    height="112"
+    rx="8"
+    fill="#061326"
+    stroke="#153a68"/>
+
+<text
+    x="45"
+    y="1135"
+    class="title"
+    font-size="15">
+
+    Professional
+
+</text>
+
+
+<text
+    x="45"
+    y="1160"
+    class="cyanText"
+    font-size="13">
+
+    ◉ Website
+
+</text>
+
+<text
+    x="145"
+    y="1160"
+    class="small">
+
+    anishidra.com
+
+</text>
+
+
+<text
+    x="45"
+    y="1182"
+    class="cyanText"
+    font-size="13">
+
+    in LinkedIn
+
+</text>
+
+<text
+    x="145"
+    y="1182"
+    class="small">
+
+    linkedin.com/in/anishidra
+
+</text>
+
+
+<text
+    x="45"
+    y="1204"
+    class="cyanText"
+    font-size="13">
+
+    ▶ YouTube
+
+</text>
+
+<text
+    x="145"
+    y="1204"
+    class="small">
+
+    youtube.com/@anishidra
+
+</text>
+
+
+<!-- COMMUNICATION -->
+
+<rect
+    x="407"
+    y="1110"
+    width="370"
+    height="112"
+    rx="8"
+    fill="#061326"
+    stroke="#153a68"/>
+
+<text
+    x="427"
+    y="1135"
+    class="title"
+    font-size="15">
+
+    Communication
+
+</text>
+
+
+<text
+    x="427"
+    y="1160"
+    class="cyanText"
+    font-size="13">
+
+    ◉ WhatsApp
+
+</text>
+
+<text
+    x="527"
+    y="1160"
+    class="small">
+
+    +213 XX XX XX XX
+
+</text>
+
+
+<text
+    x="427"
+    y="1182"
+    class="cyanText"
+    font-size="13">
+
+    ✈ Telegram
+
+</text>
+
+<text
+    x="527"
+    y="1182"
+    class="small">
+
+    t.me/anishidra
+
+</text>
+
+
+<text
+    x="427"
+    y="1204"
+    class="cyanText"
+    font-size="13">
+
+    ✉ Email
+
+</text>
+
+<text
+    x="527"
+    y="1204"
+    class="small">
+
+    anishidra@example.com
+
+</text>
+
+
+<!-- PERSONAL -->
+
+<rect
+    x="789"
+    y="1110"
+    width="433"
+    height="112"
+    rx="8"
+    fill="#061326"
+    stroke="#153a68"/>
+
+<text
+    x="809"
+    y="1135"
+    class="title"
+    font-size="15">
+
+    Personal
+
+</text>
+
+
+<text
+    x="809"
+    y="1160"
+    class="cyanText"
+    font-size="13">
+
+    𝕏 X
+
+</text>
+
+<text
+    x="865"
+    y="1160"
+    class="small">
+
+    @anishidra
+
+</text>
+
+
+<text
+    x="809"
+    y="1182"
+    class="cyanText"
+    font-size="13">
+
+    ◎ Instagram
+
+</text>
+
+<text
+    x="865"
+    y="1182"
+    class="small">
+
+    @anis.hidra
+
+</text>
+
+
+<text
+    x="809"
+    y="1204"
+    class="cyanText"
+    font-size="13">
+
+    ● Facebook
+
+</text>
+
+<text
+    x="865"
+    y="1204"
+    class="small">
+
+    /anishidra
+
+</text>
+
+
+<text
+    x="1035"
+    y="1160"
+    class="cyanText"
+    font-size="13">
+
+    ◉ Snapchat
+
+</text>
+
+<text
+    x="1110"
+    y="1160"
+    class="small">
+
+    @anis.hidra
+
+</text>
+
+
+<text
+    x="1035"
+    y="1182"
+    class="cyanText"
+    font-size="13">
+
+    ♪ TikTok
+
+</text>
+
+<text
+    x="1110"
+    y="1182"
+    class="small">
+
+    @anis.hidra
+
+</text>
+
+
+<!-- FOOTER -->
+
+<text
+    x="627"
+    y="1238"
+    text-anchor="middle"
+    class="muted"
+    font-size="12">
+
+    CODE • BUILD • LEARN • GROW
+
+</text>
+
+</svg>
