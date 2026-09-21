@@ -47,8 +47,6 @@
 <br clear="both">
 
 <div data-importer="stats" align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anishidra76&show_icons=true&count_private=true&theme=github_dark" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anishidra76&layout=compact&langs_count=5&theme=github_dark" alt="languages graph" />
   <img src="https://streak-stats.demolab.com?user=anishidra76&locale=en&mode=daily&theme=github_dark&hide_border=true&border_radius=5&date_format=M%20j%5B,%20Y%5D" height="150" alt="streak graph"  />
 </div>
 
