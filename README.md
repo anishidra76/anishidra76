@@ -23,44 +23,34 @@
 ###
 
 <div data-importer="techs" align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="80" alt="python logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="50" alt="python logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="80" alt="javascript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="50" alt="javascript logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="80" alt="html5 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="50" alt="html5 logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="80" alt="css logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="50" alt="css logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="80" alt="django logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="50" alt="django logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="80" alt="react logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="50" alt="react logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="80" alt="mysql logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="50" alt="mysql logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="80" alt="sqlite logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="50" alt="sqlite logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="80" alt="postgresql logo"  />
-</div>
-
-###
-
-<div data-importer="stats" align="center">
-  <img src="https://raw.githubusercontent.com/anishidra76/anishidra76/stats-output/stats.svg?hide_title=true&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=chartreuse-dark&locale=en&hide_border=true" height="150" alt="stats graph" /> <br>
-  <img src="https://streak-stats.demolab.com?user=anishidra76&locale=en&mode=daily&theme=chartreuse-dark&hide_border=true&border_radius=5&date_format=M%20j%5B,%20Y%5D" height="150" alt="streak graph" /> <br>
-  <img src="https://raw.githubusercontent.com/anishidra76/anishidra76/languages-output/languages.svg?locale=en&hide_title=true&layout=compact&card_width=320&langs_count=5&theme=chartreuse-dark&hide_border=true" height="150" alt="languages graph" /> <br>
-  <img src="https://raw.githubusercontent.com/anishidra76/anishidra76/activity-graph-output/activity-graph.svg?area=true&hide_border=true&hide_title=true&theme=chartreuse-dark" height="" alt="activity-graph graph" /> <br>
-  <img src="https://raw.githubusercontent.com/anishidra76/anishidra76/trophy-output/trophy.svg?theme=kimbie_dark&no-frame=true&no-bg=true" height="150" alt="trophy graph"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="50" alt="postgresql logo"  />
 </div>
 
 ###
 
 <br clear="both">
 
-<picture data-importer="pacman">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anishidra76/anishidra76/pacman-output/galaga-contribution-graph-dark.svg?game=galaga">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anishidra76/anishidra76/pacman-output/galaga-contribution-graph.svg?game=galaga">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/anishidra76/anishidra76/pacman-output/galaga-contribution-graph.svg?game=galaga">
-</picture>
+<div data-importer="stats" align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=anishidra76&show_icons=true&count_private=true&theme=github_dark" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anishidra76&layout=compact&langs_count=5&theme=github_dark" alt="languages graph" />
+  <img src="https://streak-stats.demolab.com?user=anishidra76&locale=en&mode=daily&theme=github_dark&hide_border=true&border_radius=5&date_format=M%20j%5B,%20Y%5D" height="150" alt="streak graph"  />
+</div>
 
 ###
 
